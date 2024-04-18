@@ -1,0 +1,58 @@
+theme = "awesome-identity"
+baseURL = "https://www.joshoberhaus.com"
+title = "Josh Oberhaus - Software Engineer"
+languageCode = "en-US"
+# Content without language indicator will default to this language
+defaultContentLanguage = "en"
+# Make .Summary and .WordCount behave correctly for CJK languages
+hasCJKLanguage = true
+PygmentsCodeFences = true
+# Enable to turn relative URLs into absolute
+canonifyURLs = true
+# Do not convert the url/path to lowercase
+disablePathToLower = false
+# Enable Emoji emoticons support for page content
+enableEmoji = true
+# Update the `Lastmod` parameter for each page using the last git commit date for that content file
+enableGitInfo = true
+# Enable generation of `robots.txt` file
+enableRobotsTXT = true
+
+
+## Meta Configurations (HTTP Meta tags & OpenGraph)
+[params.meta]
+  description = "Technical Expert at Bosch."
+  keywords = ""
+  images = [
+    "/images/profile.jpg"
+  ]
+
+
+## Profile Configurations
+[params.profile]
+  portrait = "/images/profile.jpg"
+  firstname = "Josh"
+  lastname = "Oberhaus"
+  title = "Software Engineer"
+  bio = """
+  I'm a software engineer, working in the automotive industry. I have a passion for learning and mentoring others!
+  <br />
+  """
+
+
+## Contacts Configurations
+[params.contacts]
+  email = "josh.oberhaus@gmail.com"
+  github = "joshOberhaus"
+  linkedin = "joshoberhaus"
+
+
+## Actions Configurations
+[[params.actions]]
+  name = "Review My Résumé"
+  url = "https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf"
+
+
+## Footer Configurations
+[params.footer]
+  poweredBy = true
