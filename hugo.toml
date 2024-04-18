@@ -42,7 +42,6 @@ enableRobotsTXT = true
 
 ## Contacts Configurations
 [params.contacts]
-  email = "josh.oberhaus@gmail.com"
   github = "joshOberhaus"
   linkedin = "joshoberhaus"
 
@@ -50,9 +49,18 @@ enableRobotsTXT = true
 ## Actions Configurations
 [[params.actions]]
   name = "Review My Résumé"
-  url = "https://raw.githubusercontent.com/posquit0/Awesome-CV/master/examples/cv.pdf"
+  url = "https://raw.githubusercontent.com/joshOberhaus/Awesome-CV/master/examples/resume.pdf"
 
 
 ## Footer Configurations
 [params.footer]
   poweredBy = true
+
+## Privacy Configurations (GDPR)
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
+    # Make the users’ IP addresses are anonymized within Google Analytics
+    anonymizeIP = true
+    # Make the GA templates respect the “Do Not Track” HTTP header
+    respectDoNotTrack = true
