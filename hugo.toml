@@ -35,13 +35,17 @@ enableRobotsTXT = true
   lastname = "Oberhaus"
   title = "Software Engineer"
   bio = """
-  I'm a software engineer, working in the automotive industry. I have a passion for learning and mentoring others!
+  With 8 specializing in Driver Assistance, I bring expertise in Radar-based tracking and fusion, alongside a diverse skill set from a total of 14 years in the automotive industry. 
+  Committed to continual growth, I thrive on learning and empowering others in the field.
   <br />
+  Beyond my professional pursuits, I'm passionate about music as a saxophonist and find inspiration in outdoor adventures.  
+  I am also a maker at heart, especially when it comes to projects relating to home automation.
   """
 
 
 ## Contacts Configurations
 [params.contacts]
+  email = "me@joshoberhaus.com"
   github = "joshOberhaus"
   linkedin = "joshoberhaus"
 
