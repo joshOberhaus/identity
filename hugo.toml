@@ -54,7 +54,7 @@ enableRobotsTXT = true
 ## Actions Configurations
 [[params.actions]]
   name = "Review My Résumé"
-  url = "https://raw.githubusercontent.com/joshOberhaus/Awesome-CV/master/examples/resume.pdf"
+  url = "https://raw.githubusercontent.com/joshOberhaus/Awesome-CV/master/project/JoshOberhausResume.pdf"
 
 
 ## Footer Configurations
